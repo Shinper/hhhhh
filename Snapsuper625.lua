@@ -22,7 +22,7 @@ Jika terjadi crash setelah menggunakan AntiCrash, anda tidak perlu menggunakanny
 end
 function startBypass()
   gg.setVisible(false)
-  bypassAlert = gg.alert("Bypass Now","ğŸ‡¾â€ŒğŸ‡ªâ€ŒğŸ‡¸â€Œ","ğŸ‡³â€ŒğŸ‡´â€Œ")
+  bypassAlert = gg.alert("Bypass Now","ğŸ‡¾â€ŒğŸ‡ªâ„1¤7ŒğŸ‡¸â„1¤7„1¤7","ğŸ‡³â€ŒğŸ‡´â„1¤7„1¤7")
   if bypassAlert == 1 then BP() end
   if bypassAlert == 2 then end
 end
@@ -31,11 +31,11 @@ startBypass()
 
 function Main()
 menu = gg.multiChoice({
-"ğŸ‡¼â€ŒğŸ‡¦â€ŒğŸ‡±â€ŒğŸ‡±â€ŒğŸ‡­â€ŒğŸ‡¦â€ŒğŸ‡¨â€ŒğŸ‡°â€ŒÂ &Â ğŸ‡¨â€ŒğŸ‡´â€ŒğŸ‡±â€ŒğŸ‡´â€ŒğŸ‡·â€Œ",
-"ğŸ‡­â€ŒğŸ‡ªâ€ŒğŸ‡¦â€ŒğŸ‡©â€ŒğŸ‡¸â€ŒğŸ‡­â€ŒğŸ‡´â€ŒğŸ‡¹â€Œ5âƒ£0âƒ£",
-"ğŸ‡¦â€ŒğŸ‡®â€ŒğŸ‡²â€ŒğŸ‡§â€ŒğŸ‡´â€ŒğŸ‡¹â€ŒÂ ğŸ‡³â€ŒğŸ‡ªâ€ŒğŸ‡¦â€ŒğŸ‡·â€Œ (Lobby)",
-"ğŸ‡§â€ŒğŸ‡±â€ŒğŸ‡¦â€ŒğŸ‡¨â€ŒğŸ‡°â€ŒğŸ‡¸â€ŒğŸ‡°â€ŒğŸ‡¾â€Œ","ğŸ‡³â€ŒğŸ‡´â€ŒÂ ğŸ‡·â€ŒğŸ‡ªâ€ŒğŸ‡¨â€ŒğŸ‡´â€ŒğŸ‡®â€ŒğŸ‡±â€Œ",
-'EXIT'},nil," ğŸ‡¸â€ŒğŸ‡­â€ŒğŸ‡®â€ŒğŸ‡³â€Œ Menu  ")
+"ğŸ‡¼â€ŒğŸ‡¦â„1¤7ŒğŸ‡±â„1¤7ŒğŸ‡±â„1¤7ŒğŸ‡­â„1¤7ŒğŸ‡¦â„1¤7ŒğŸ‡¨â„1¤7ŒğŸ‡°â„1¤7ŒÂ„1¤7&Â ğŸ‡¨â€ŒğŸ‡´â„1¤7ŒğŸ‡±â„1¤7ŒğŸ‡´â„1¤7ŒğŸ‡·â„1¤7„1¤7",
+"ğŸ‡­â€ŒğŸ‡ªâ„1¤7ŒğŸ‡¦â„1¤7ŒğŸ‡©â„1¤7ŒğŸ‡¸â„1¤7ŒğŸ‡­â„1¤7ŒğŸ‡´â„1¤7ŒğŸ‡¹â„1¤7„1¤75âƒ„1¤70âƒ„1¤7",
+"ğŸ‡¦â€ŒğŸ‡®â„1¤7ŒğŸ‡²â„1¤7ŒğŸ‡§â„1¤7ŒğŸ‡´â„1¤7ŒğŸ‡¹â„1¤7ŒÂ ğŸ‡³â„1¤7ŒğŸ‡ªâ„1¤7ŒğŸ‡¦â„1¤7ŒğŸ‡·â„1¤7„1¤7 (Lobby)",
+"ğŸ‡§â€ŒğŸ‡±â„1¤7ŒğŸ‡¦â„1¤7ŒğŸ‡¨â„1¤7ŒğŸ‡°â„1¤7ŒğŸ‡¸â„1¤7ŒğŸ‡°â„1¤7ŒğŸ‡¾â„1¤7„1¤7","ğŸ‡³â€ŒğŸ‡´â„1¤7ŒÂ ğŸ‡·â„1¤7ŒğŸ‡ªâ„1¤7ŒğŸ‡¨â„1¤7ŒğŸ‡´â„1¤7ŒğŸ‡®â„1¤7ŒğŸ‡±â„1¤7„1¤7",
+'EXIT'},nil," ğŸ‡¸â€ŒğŸ‡­â„1¤7ŒğŸ‡®â„1¤7ŒğŸ‡³â„1¤7„1¤7 Menu  ")
 if menu[1] == true then WHYEL() end
 if menu[2] == true then HOL() end
 if menu[3] == true then AIM() end
@@ -95,7 +95,7 @@ function HOL()
   gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
-  gg.editAll("251", gg.TYPE_FLOAT)
+  gg.editAll("200", gg.TYPE_FLOAT)
   gg.clearResults()
   gg.toast("Successful")
 end
@@ -135,7 +135,7 @@ gg.searchNumber("1750294898;1415932769;1819307365",gg.PROT_EXEC,false,gg.SIGN_FU
 gg.searchNumber("1750294898;1415932769;1819307365",gg.PROT_EXEC,false,gg.SIGN_FUZZY_EQUAL,0,-1)
 var = gg.getResults(1000)
 gg.editAll("100000",gg.PROT_EXEC)
-gg.toast('NO RECOIL V2 - ON âœ…')
+gg.toast('NO RECOIL V2 - ON âœ„1¤7')
 end
 
 function EXIT()
