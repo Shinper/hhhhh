@@ -1,36 +1,28 @@
 gg.alert("Remember Me [SHIN]")
 
 function BP()
-gg.toast("Ativando o bypass...")
-gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.clearResults()
-gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.clearResults(850)
-gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.clearResults()
-gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.clearResults(850)
-gg.alert(os.date("Hoje: %d/%m/%Y ✬ Hora: %H:%M\n▶ Verion 0.7.5\n▶ Enjoy 👍"))
-gg.toast('ANTI-CHEAT ❎')
-BP=0
+  gg.toast("Hamba Allah harus bersabar")
+  gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.clearResults()
+  gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.clearResults(850)
+  gg.toast("Hamba Allah was here!")
+  gg.alert([[
+AntiCrash Actived!!
 
-  gg.toast("Bypass Done!")
+If you crash with AntiCrash, Dont use it!
+
+Jika terjadi crash setelah menggunakan AntiCrash, anda tidak perlu menggunakannya!]])
 end
 function startBypass()
   gg.setVisible(false)
-  bypassAlert = gg.alert("Bypass Now","YES","NO")
+  bypassAlert = gg.alert("Bypass Now","🇾‌🇪‌🇸‌","🇳‌🇴‌")
   if bypassAlert == 1 then BP() end
   if bypassAlert == 2 then end
 end
@@ -38,17 +30,17 @@ end
 startBypass()
 
 function Main()
-menu = gg.choice({
-"WallHack & Color YEL",
-"Headshot50/50",
-"AIMBot near use in lobby",
-"BlackSky","No recoil",
-'EXIT'},nil," SHIN Menu  ")
-if menu == 1 then WHYEL() end
-if menu == 2 then HOL() end
-if menu == 3 then AIM() end
-if menu == 4 then BS() end
-if menu == 5 then RC() endif menu == 6 then EXIT() end
+menu = gg.multiChoice({
+"🇼‌🇦‌🇱‌🇱‌🇭‌🇦‌🇨‌🇰‌ & 🇨‌🇴‌🇱‌🇴‌🇷‌",
+"🇭‌🇪‌🇦‌🇩‌🇸‌🇭‌🇴‌🇹‌5⃣0⃣",
+"🇦‌🇮‌🇲‌🇧‌🇴‌🇹‌ 🇳‌🇪‌🇦‌🇷‌ (Lobby)",
+"🇧‌🇱‌🇦‌🇨‌🇰‌🇸‌🇰‌🇾‌","🇳‌🇴‌ 🇷‌🇪‌🇨‌🇴‌🇮‌🇱‌",
+'EXIT'},nil," 🇸‌🇭‌🇮‌🇳‌ Menu  ")
+if menu[1] == true then WHYEL() end
+if menu[2] == true then HOL() end
+if menu[3] == true then AIM() end
+if menu[4] == true then BS() end
+if menu[5] == true then RC() endif menu[6] == true then EXIT() end
 XCGK = -1 
 end
 function WHYEL()
@@ -103,7 +95,7 @@ function HOL()
   gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
-  gg.editAll("200", gg.TYPE_FLOAT)
+  gg.editAll("251", gg.TYPE_FLOAT)
   gg.clearResults()
   gg.toast("Successful")
 end
